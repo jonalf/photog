@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf130
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww14200\viewh9600\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 I don\'92t remember how the python intro days were broken up, but these were the things covered:\
+	python shell\
+	basic math stuff\
+	putting python in a file\
+	writing functions\
+	lists\
+	picking random elements out of a list (not using random.choice)\
+\
+Basic Flask\
+	Using routes to display different webpages\
+	using functions without routes as helpers in display\
+\
+Flask Day 2\
+	Put names of students in a list\
+	Put different greetings in a list\
+	Have the app display a random greeting + a random name\
+	Put some basic html in the return value\
+\
+Flask Day 3\
+	Put more html in the app\
+	That\'92s super ugly, let\'92s use templates\
+		use variables in templates for name and greeting\
+	Templates folder and static folder, use static folder to keep an image and display it in the template\
+	\
+Photog v1 : The login page\
+	Hard code a username and password\
+	Write an authenticate function\
+	forms in html (POST method -> sow flask logs with GET vs POST)\
+	request.form Flask object\
+	Show app.debug for easier development\
+	login route prints simple success or failure message on login\
+\
+Photog v2: Dictionaries & better login messages\
+	Put usernames:passwords in a dictionary\
+	Add a valid_user function\
+	login route returns different messages if password is incorrect or username is unregistered\
+	\
+	\
+Photog v3: Shelves & hashing passwords\
+	Add a register user button on the login page\
+	New users do not persist\
+	Use shelve module\
+		show shelve db file\
+		passwords are stored in plain text\
+	the benefits of hashing passwords\
+	Saving hashed passwords only\
+\
+Photog v4: sessions\
+	Add session support\
+	Add logout button\
+	Include a check if the user is in the session for each route\
+	create an upload template and file upload form element (no upload yet)\
+\
+Photog v5: file uploads\
+	Uploading files in flask\
+	Saving them to a decent place\
+	redirecting to home page after upload is complete\
+\
+Photog v6:\
+	Creating directories for users when they register\
+	store list of file names in user dictionary along with passwords\
+	For loop in templates to loop through the list of photo names and display them on home page\
+\
+Photog v7:\
+	Create a public page for each user on the fly\
+	using /public/<NAME> variables to go to each user\
+\
+Photog v8:\
+	Create a page with links to each users public page including showing their most recent picture. \
+\
+Photog v9\
+	Deploying to heroku (kinda)\
+	Using checkboxes in forms/flask to select users to follow}
